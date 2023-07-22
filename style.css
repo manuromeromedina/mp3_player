@@ -1,1 +1,100 @@
 /* archivo style.css*/
+
+body{
+    font-family:'Courier New', Courier, monospace;
+}
+
+.player{
+    height:  95vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.wrapper{
+    border: 1px solid transparent;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: rgba(233, 26, 192, 0.3) 0px 19px 38px, rgba(233, 26, 192, 0.22) 0px 15px 12px;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.track-art{
+    margin: 25px;
+    height: 250px;
+    width: 250px;
+    border: 2px solid #df0773;
+    background-size:  cover ;
+    background-position: center;
+    border-radius: 50%;
+    box-shadow: 0px 6px 5px #9607707e;
+    -moz-box-shadow: 0px 6px 5px #ff03af64;
+    -webkit-box-shadow: 0px 6px 5px #ff03af64;
+    box-shadow: 0px 6px 5px #a2056b;
+    border-radius: 190px;
+    
+}
+
+.now-playing{
+    font-size: 1rem;
+}
+
+.track-name{
+    font-size: 2.5rem;
+}
+
+.track-artist{
+    margin-top: 5px;
+    font-size: 1.5rem;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.active{
+    color: black;
+}
+
+.repeat-track,
+.random-track,
+.playpause-track,
+.prev-track,
+.next-track{
+    padding: 25px;
+    opacity: 0.8;
+    transition: opacity .2s;
+}
+
+.repeat-track:hover,
+.random-track:hover,
+.playpause-track:hover,
+.prev-track:hover,
+.next-track:hover{
+    opacity: 1.0;
+}
+
+.slider_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seek_slider,
+.volume_slider{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    height: 5px;
+    background: #f50909;
+}
