@@ -1,0 +1,2 @@
+//archivo script.js//
+
