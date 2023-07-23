@@ -2,6 +2,8 @@
 
 body{
     font-family:'Courier New', Courier, monospace;
+    background: linear-gradient(to right,#ffffff, #650045);
+    font-weight: bold;
 }
 
 .player{
@@ -34,10 +36,11 @@ body{
     background-size:  cover ;
     background-position: center;
     border-radius: 50%;
-    box-shadow: 0px 6px 5px #9607707e;
     -moz-box-shadow: 0px 6px 5px #ff03af64;
     -webkit-box-shadow: 0px 6px 5px #ff03af64;
-    box-shadow: 0px 6px 5px #a2056b;
+    box-shadow: 0px 6px 5px #9607707e;
+    -moz-border-radius:190px;
+    -webkit-border-radius:190px;
     border-radius: 190px;
     
 }
@@ -90,8 +93,7 @@ body{
     align-items: center;
 }
 
-.seek_slider,
-.volume_slider{
+.seek_slider, .volume_slider{
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -110,7 +112,7 @@ body{
     height: 15px;
     background: #9b036be3;
     border: 3px solid #9b036be3;
-    cursor: pointer;
+    cursor: grab;
     border-radius:100%;
 }
  
@@ -141,7 +143,8 @@ i,
 i.fa-play-circle,
 i.fa-pause-circle,
 i.fa-step-forward,
-i.fa-step-backward{
+i.fa-step-backward,
+p{
     cursor: pointer;
 }
 
@@ -169,19 +172,20 @@ i.fa-step-backward{
 }
 
 .loader .stroke{
-    background: red ;
+    background: rgb(255, 0, 200)(141, 6, 6) ;
     height: 150%;
     width: 10px;
     border-radius: 50px;
-    margin: 0px 50px;
-    animation: animate 1,4s linear infinite;
+    margin: 0px 5px;
+    animation: animate 1.4s linear infinite;
 }
 @keyframes animate{
     50%{
         height: 20%;
-        background: #cdff03;
+        background: #800156;
     }
     100%{
+        background: #020765;
         height: 100%;
     }
 }
