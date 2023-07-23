@@ -4,4 +4,4 @@ Proyecto personal
 Manuel Romero Medina
 
 
-Reproductor MP3 con 3 canciones y diseño
+Reproductor MP3 con 4 canciones y diseño
