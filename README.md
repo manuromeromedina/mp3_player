@@ -1,5 +1,5 @@
 # mp3_player
-Proyecto personal
+Proyecto personal (NO ESTÁ TERMINADO)
 
 Manuel Romero Medina
 
