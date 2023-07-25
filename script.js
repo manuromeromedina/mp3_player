@@ -36,7 +36,7 @@ const music_list = [
         music : 'musica/tepido.mp3'
     },
     {
-        img : 'imagenes/lasjordans.png',
+        img : 'imagenes/tinilasjordans.jpg',
         name : 'Las Jordans',
         artist : 'TINI',
         music : 'musica/lasjordans.mp3'
@@ -46,7 +46,7 @@ const music_list = [
         name : 'Me Enteré',
         artist : 'TINI, Tiago PZK',
         music : 'musica/meentere.mp3'
-    },
+    }
 ];
 
 loadTrack(track_index);
