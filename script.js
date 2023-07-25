@@ -24,7 +24,7 @@ let updateTimer;
 
 const music_list = [
     {
-        img : 'imagenes/tinicupido.jpg',
+        img : 'imagenes/tini.jpg',
         name : 'Cupido',
         artist : 'TINI',
         music : 'musica/cupido.mp3'
