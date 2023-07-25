@@ -1,12 +1,12 @@
 /* archivo style.css*/
 body {
     font-family:'Courier New', Courier, monospace;
-    background: linear-gradient(to right,#ffffff, #650045);
+    background: linear-gradient(to right, #ffffff, #650045);
     font-weight: bold;
     }
     
     .player{
-      height: 95vh;
+      height: 100vh;
       display: flex;
       align-items: center;
       flex-direction: column;
