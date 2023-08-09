@@ -24,7 +24,7 @@ let updateTimer;
 
 const music_list = [
     {
-        img : 'imagenes/tini.jpg',
+        img : 'imagenes/cupidotini.jpg',
         name : 'Cupido',
         artist : 'TINI',
         music : 'musica/cupido.mp3'
@@ -46,7 +46,38 @@ const music_list = [
         name : 'Me Enteré',
         artist : 'TINI, Tiago PZK',
         music : 'musica/meentere.mp3'
-    }
+    },
+    {
+        img : 'imagenes/mienteme.jpg',
+        name : 'Mienteme',
+        artist : 'TINI, María Becerra',
+        music : 'musica/mienteme.mp3',
+    },
+    {
+        img : 'imagenes/latriplet.jpg',
+        name : 'La Triple T',
+        artist : 'TINI',
+        music : 'musica/latriplet.mp3',
+    },
+    {
+        img : 'imagenes/elultimo.jpg',
+        name : 'El Ultimo Beso',
+        artist : 'TINI, Tiago PZK',
+        music : 'musica/elultimobeso.mp3',
+    },
+    {
+        img : 'imagenes/carneyhueso.jpg',
+        name : 'Carne y Hueso',
+        artist : 'TINI',
+        music : 'musica/carneyhueso.mp3',
+    },
+    {
+        img : 'imagenes/bar.jpg',
+        name : 'Bar',
+        artist : 'TINI, L-gante',
+        music : 'musica/bar.mp3',
+    }    
+
 ];
 
 loadTrack(track_index);
