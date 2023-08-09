@@ -114,9 +114,11 @@ function random_bg_color(){
     }
     let Color1 = populate('#');
     let Color2 = populate('#');
+    let Color3 = populate('#');
+    let Color4 = populate('#');
     var angle = 'to right';
 
-    let gradient = 'linear-gradient(' + angle + ',' + Color1 + ', ' + Color2 + ")";
+    let gradient = 'linear-gradient(' + angle + ',' + Color1 + ', ' + Color2 + ', ' + Color3 + ', ' + Color4 + ')';
     document.body.style.background = gradient;
 }
 function reset(){
